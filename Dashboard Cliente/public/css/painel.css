@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 20%;
+    height: 100vh;
+}
+
+#sidebar-bg{
+    background-image: url("/img/sidebar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sidebar-small{
+    background-color: rgb(230, 233, 235);
+}
+.cheatsheet{
+    width: 80%;
+    height: 90px;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(230, 233, 235);
+    
+}
+.navbar p{
+    width: 55px;
+    margin: auto;
+    float: left;
+    padding: auto;
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-left: 70px;
+    
+}
+.navbar button{
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    border: none;
+    margin-top: 18px;
+}
+
+.painel-faturas{
+    background-color: white;
+}
+
+.header-fatura{
+    width: 100%;
+    height: 35px;
+
+}
+.header-fatura p{
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.tb-fatura{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.tb-fatura tr{
+    border: 1px solid #AAA;
+    text-align: center;
+}
+
+.faturas{
+    border: 1px solid #DDD;
+}
+
