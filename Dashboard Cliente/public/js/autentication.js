@@ -13,7 +13,7 @@ function autentication(){
             
         }else{
             if (document.getElementById("cpf").value == jose[0] && document.getElementById("senha").value == jose[1]) {
-                window.location.href = "http://localhost:3000/painel";
+                window.location.href = "http://18.213.159.90/painel";
             } else {
                 
             }
